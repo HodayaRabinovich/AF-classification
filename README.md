@@ -11,14 +11,17 @@ To use this project, follow these steps:
 1. Clone the repository to your local machine:
    git clone https://github.com/HodayaRabinovich/AF-classification.git
 2. Install requirement: biosppy.signals.ecg
+3. download the database from "https://physionet.org/content/challenge-2004/1.0.0/"
 
 ## Usage
-dowmload the database from "https://physionet.org/content/challenge-2004/1.0.0/"
-There are 2 modes - train and test:
-for test the model: python main.py -m test -n model
-for training new model:python main.py -m train -n "new-model-name"
+There are 2 modes:
+   ### test: 
+      python main.py -m test -n model
+   ### train:
+      python main.py -m train -n "new-model"
+      python main.py -m test -n "new-model"
 
-For detailed instructions and examples, refer to the documentation in the docs directory.
+For results and conclusions, refer to the documentation in the docs directory.
 
 ## References
 
